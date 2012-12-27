@@ -1,0 +1,44 @@
+/* 
+    Document   : profiles
+    Created on : 28 Nov, 2011, 10:35:04 PM
+    Author     : Vitz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.SPCourseTable {
+    width: 90%;
+    text-align: center;
+    /*border: black solid;
+    /*border-width: 1px;*/
+}
+
+.SPCourseTableHeader {
+    background-color: #73d4ff;
+}
+
+.SPCourseTableColumn {
+}
+
+.SPProfileTop {
+    border-top: 1px solid #dfdfdf;
+}
+
+.IPProfileTop {
+    border-top: 1px solid #dfdfdf;
+}
+
+.Space {
+    margin: 15px 0px 20px 0px;
+}
+
+#profileElements hr {
+    border:none;
+    border-bottom: 1px solid #cfcfcf;
+    margin:10px 0px 10px 0px;
+}

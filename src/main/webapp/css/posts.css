@@ -1,0 +1,98 @@
+/* 
+    Document   : posts
+    Created on : Nov 29, 2011, 3:23:22 AM
+    Author     : hasan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.posts {
+    margin: 20px 20px 20px 0px;
+    color: #2f2f2f;
+    font-size:15px;
+    padding: 10px 0px 10px 0px;
+}
+.posts hr {
+    border:none;
+    border-bottom: thin solid #cfcfcf;
+}
+.Post {
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 15px 0px;
+    width:450px;
+    position:relative;
+}
+.post {
+    margin: 5px 10px 5px 10px;
+}
+.postHeader {
+    margin-bottom:3px;
+}
+.postHeaderName {
+    color: #3366CC;
+    font-weight:bold;
+    margin-right:10px;
+    float:left;
+}
+.postHeaderName:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.postHeaderTime {
+    color:#999999;
+}
+
+.comment {
+    list-style-type: none;
+    position:relative;
+}
+.comment hr {
+    border:none;
+    border-bottom: 1px solid #efefef;
+}
+.commentHeaderName {
+    padding-right: 10px;
+    color: #3366CC;
+}
+.commentTime {
+    color: #999999;
+}
+
+.commentTextArea {
+    height:36px;
+    width: 100%;
+    border: 1px solid #9f9f9f;
+    font-size: 15px;
+    font-family: inherit;
+    padding: 3px;
+    margin-bottom:5px;
+}
+
+.postTextArea {
+    height:36px;
+    width:100%;
+    border: 1px solid #9f9f9f;
+    font-size:15px;
+    font-family: inherit;
+    padding:3px;
+    margin-bottom:5px;
+}
+
+.deletePostComment {
+    position:absolute;
+    width:15px;
+    height:15px;
+    right:0px;
+    top:0px;
+    background-image: url(../images/close.png);
+}
+.deletePostComment:hover {
+    background-image: url(../images/close-dark.png);
+}
