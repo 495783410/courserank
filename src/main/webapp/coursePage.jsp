@@ -4,13 +4,13 @@
     Author     : rishabh
 --%>
 
-<%@page import="dbis.CoursePage.offeringInfo"%>
-<%@page import="dbis.CoursePage.courseInfo"%>
-<%@page import="dbis.CoursePage.instructorInfo"%>
-<%@page import="dbis.CoursePage.reviewInfo"%>
-<%@page import="dbis.CoursePage.offeringListElement"%>
+<%@page import="acad.db.courserank.dbis.CoursePage.offeringInfo"%>
+<%@page import="acad.db.courserank.dbis.CoursePage.courseInfo"%>
+<%@page import="acad.db.courserank.dbis.CoursePage.instructorInfo"%>
+<%@page import="acad.db.courserank.dbis.CoursePage.reviewInfo"%>
+<%@page import="acad.db.courserank.dbis.CoursePage.offeringListElement"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="dbis.*"%>
+<%@page import="acad.db.courserank.dbis.*"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
