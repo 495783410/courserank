@@ -154,7 +154,7 @@
                     <div class="courseTitle left">Offering: <%=offering_info.course_id%>&nbsp;<%=offering_info.semester%>&nbsp;<%=offering_info.year%></div>
                     <a href="javascript:alterSubscription()">
                         <%
-                        String value = (dbis.profiles.profiles.checkTakes(studentId, (int)offeringId) ? "UnSubscribed" : "Subscribed");
+                        String value = (acad.db.courserank.dbis.profiles.profiles.checkTakes(studentId, (int)offeringId) ? "UnSubscribed" : "Subscribed");
                         System.err.println(value);
                         %>
                     <div id="courseSubscription" class="courseSubscribe <%=value%> right">
