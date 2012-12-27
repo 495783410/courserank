@@ -228,6 +228,6 @@ function displayOfferingInfo(ajaxRequest, num){
     var courseId = document.getElementById("compareCourse_courseList" + num).value;
         
     //Replace the folllowing command
-    ajaxRequest.open("GET", "getComparisionData.jsp?courseId=" + courseId + "&&offeringId=" + offeringId , true);
+    ajaxRequest.open("GET", "getComparisonData.jsp?courseId=" + courseId + "&&offeringId=" + offeringId , true);
     ajaxRequest.send(null);          
 }
