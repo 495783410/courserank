@@ -26,8 +26,8 @@ public class global {
      
     public static String getHost() {
         String url;
-        url = "https://courserank-alphanso.rhcloud.com/";
-        //url = "http://localhost:8084/courserank";
+        //url = "https://courserank-alphanso.rhcloud.com/";
+        url = "http://localhost:8084/courserank";
         return url;
     }
 }    
