@@ -32,6 +32,10 @@
         <servlet-name>editProfilePassword</servlet-name>
         <servlet-class>acad.db.courserank.editProfilePassword</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>editProfileBasic</servlet-name>
+        <servlet-class>acad.db.courserank.editProfileBasic</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>editProfileGrades</servlet-name>
         <url-pattern>/editProfileGrades</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>editProfilePassword</servlet-name>
         <url-pattern>/editProfilePassword</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>editProfileBasic</servlet-name>
+        <url-pattern>/editProfileBasic</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
