@@ -32,7 +32,7 @@ public class Header {
         head_start_text = "<html> <head>";
         head_end_text = "</head>";
         styleSheets = "<link rel='stylesheet' href='css/index.css' type='text/css' />";
-        scripts = "<script type='text/javascript' src='scripts/index.js'></script>";
+        //scripts = "<script type='text/javascript' src='scripts/index.js'></script>";
         
         superheader_start_text = "<body><div id='super-header'>";
         superheader_end_text = "</div>  <div>"; //Also taken the starting of body which is closed in the footer class
