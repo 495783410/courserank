@@ -36,6 +36,7 @@ function showProjects() {
 function submitBasic(s_id) {
     var name = document.getElementsByName("StudentName")[0].value;
     var cpi = document.getElementsByName("CPI")[0].value;
+    console.log("submitBasic called" + s_id);
     if (name.length < 1 || name.length > 30) {
         alert("Name must be non-empty and less than 30 characters. You entered " + name);
         return;
