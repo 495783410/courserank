@@ -70,7 +70,7 @@ public class CoursePage {
         public double rating;
         public double averageLoad;
         public String venue;
-        public int timeslot_id;
+        public String timeslot_id;
         public int strength;
         // Store the stats about grades in numGrades.
         // AP(0), AA(1), AB(2), BB(3), BC(4), CC(5), CD(6), DD(7), FR(8), XX(9)
@@ -250,7 +250,7 @@ public class CoursePage {
                 resOffering.semester = rset.getString("semester");
                 resOffering.credits = rset.getDouble("credits");
                 resOffering.venue = rset.getString("venue");
-                resOffering.timeslot_id = rset.getInt("timeslot_id");
+                resOffering.timeslot_id = rset.getString("timeslot_id");
                 resOffering.strength = rset.getInt("strength");   
                 resOffering.rating = rset.getDouble("rating");
                 resOffering.averageLoad = rset.getDouble("aww");
